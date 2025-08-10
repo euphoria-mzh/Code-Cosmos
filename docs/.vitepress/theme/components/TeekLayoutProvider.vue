@@ -8,7 +8,7 @@ import { useRibbon } from "../composables/useRibbon";
 import { useRuntime } from "../composables/useRuntime";
 import ConfigSwitch from "./ConfigSwitch.vue";
 import ContributeChart from "./ContributeChart.vue";
-import NotFound from "./404.vue";
+import NotFound from "./404.vue"; 
 
 const ns = "layout-provider";
 const { frontmatter } = useData();

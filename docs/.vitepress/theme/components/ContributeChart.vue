@@ -10,13 +10,16 @@ const posts = usePosts();
 // 今天
 const today = formatDate(new Date(), "yyyy-MM-dd");
 // 获取一年前的时间
-const beforeOnYear = formatDate(new Date(new Date().getTime() - 365 * 24 * 60 * 60 * 1000), "yyyy-MM-dd");
+const beforeOnYear = formatDate(
+  new Date(new Date().getTime() - 365 * 24 * 60 * 60 * 1000),
+  "yyyy-MM-dd"
+);
 
 // 贡献图数据
 const contributeList = computed(() => {
   const contributeObject = ref({});
 
-  posts.value.sortPostsByDate.forEach(item => {
+  posts.value.sortPostsByDate.forEach((item) => {
     if (!item.date) return;
 
     const date = item.date.substring(0, 10);
@@ -26,7 +29,9 @@ const contributeList = computed(() => {
 
   const contributeDays = Object.keys(contributeObject.value);
 
-  return contributeDays.map((item: string) => [item, contributeObject.value[item]]).reverse();
+  return contributeDays
+    .map((item: string) => [item, contributeObject.value[item]])
+    .reverse();
 });
 
 const chartRef = useTemplateRef("chartRef");
@@ -95,7 +100,7 @@ const renderChart = (data: any) => {
 
 watch(
   contributeList,
-  async newValue => {
+  async (newValue) => {
     await nextTick();
     renderChart(newValue);
   },

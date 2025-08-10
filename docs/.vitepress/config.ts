@@ -1,7 +1,7 @@
 import { defineConfig } from "vitepress";
 import { defineTeekConfig } from "vitepress-theme-teek/config";
 import { version } from "vitepress-theme-teek/es/version";
-
+import { nav } from "./nav";
 const description = [
   "欢迎来到 vitepress-theme-teek 使用文档",
   "Teek 是一个基于 VitePress 构建的主题，是在默认主题的基础上进行拓展，支持 VitePress 的所有功能、配置",
@@ -9,26 +9,31 @@ const description = [
 ].toString();
 
 const teekConfig = defineTeekConfig({
-  author: { name: "Teeker", link: "https://github.com/Kele-Bingtang" },
+  author: {
+    name: "euphoria-mzh",
+    link: "https://github.com/euphoria",
+  },
   blogger: {
-    avatar: "https://testingcf.jsdelivr.net/gh/Kele-Bingtang/static/user/avatar1.png",
+    avatar: "/public/avatar.png",
     shape: "circle-rotate",
-    name: "天客",
-    slogan: "朝圣的使徒，正在走向编程的至高殿堂！",
+    name: "工藤新一",
+    slogan:
+      "当硅基生命遇见碳基文明，宇宙开始自我编程 ",
     circleBgImg: "/blog/bg4.webp",
     color: "#ffffff",
   },
   footerInfo: {
     theme: {
-      name: `Theme By Teek@${version}`,
+      name: "euphoriaia-mzh",
     },
     copyright: {
       createYear: 2025,
-      suffix: "Teek",
+      suffix: "euphoria-mzh",
     },
   },
   codeBlock: {
-    copiedDone: TkMessage => TkMessage.success("复制成功！"),
+    copiedDone: (TkMessage) =>
+      TkMessage.success("复制成功！"),
   },
   post: {
     showCapture: true,
@@ -38,60 +43,110 @@ const teekConfig = defineTeekConfig({
     sidebarOption: {
       initItems: false,
     },
+    mdH1: false,
   },
   markdown: {
     demo: {
-      githubUrl: "https://github.com/Kele-Bingtang/vitepress-theme-teek/blob/master/docs",
+      githubUrl:
+        "https://github.com/Kele-Bingtang/vitepress-theme-teek/blob/master/docs",
     },
   },
-  siteAnalytics: [
-    {
-      provider: "baidu",
-      options: {
-        id: "d5ee872d9aa1ef8021f4a3921b2e9c2a",
-      },
-    },
-    {
-      provider: "google",
-      options: {
-        id: "G-K5GNDW3L7K",
-      },
-    },
-  ],
 });
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   extends: teekConfig,
-  title: "vitepress-theme-teek",
+  title: "Code Cosmos",
   description: description,
   cleanUrls: false,
   lastUpdated: true,
   lang: "zh-CN",
   head: [
-    ["link", { rel: "icon", type: "image/svg+xml", href: "/teek-logo-mini.svg" }],
-    ["link", { rel: "icon", type: "image/png", href: "/teek-logo-mini.png" }],
-    ["meta", { property: "og:type", content: "website" }],
-    ["meta", { property: "og:locale", content: "zh-CN" }],
-    ["meta", { property: "og:title", content: "Teek | VitePress Theme" }],
-    ["meta", { property: "og:site_name", content: "Teek" }],
-    ["meta", { property: "og:image", content: "" }],
+    [
+      "link",
+      {
+        rel: "icon",
+        type: "image/svg+xml",
+        href: "/teek-logo-mini.svg",
+      },
+    ],
+    [
+      "link",
+      {
+        rel: "icon",
+        type: "image/png",
+        href: "/teek-logo-mini.png",
+      },
+    ],
+    [
+      "meta",
+      { property: "og:type", content: "website" },
+    ],
+    [
+      "meta",
+      { property: "og:locale", content: "zh-CN" },
+    ],
+    [
+      "meta",
+      {
+        property: "og:title",
+        content: "Teek | VitePress Theme",
+      },
+    ],
+    [
+      "meta",
+      {
+        property: "og:site_name",
+        content: "Teek",
+      },
+    ],
+    [
+      "meta",
+      { property: "og:image", content: "" },
+    ],
     ["meta", { property: "og:url", content: "" }],
-    ["meta", { property: "og:description", description }],
-    ["meta", { name: "description", description }],
+    [
+      "meta",
+      { property: "og:description", description },
+    ],
+    [
+      "meta",
+      { name: "description", description },
+    ],
     ["meta", { name: "author", content: "Teek" }],
     [
       "meta",
       {
         name: "viewport",
-        content: "width=device-width,initial-scale=1,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no",
+        content:
+          "width=device-width,initial-scale=1,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no",
       },
     ],
 
     ["meta", { name: "keywords", description }],
-    ["meta", { name: "baidu-site-verification", content: "codeva-GdK2q9MO1i" }], // 百度收录
-    ["meta", { name: "msvalidate.01", content: "48CABE70F538B8D117567176ABF325AF" }], // Bing 收录验证
-    ["script", { charset: "UTF-8", id: "LA_COLLECT", src: "//sdk.51.la/js-sdk-pro.min.js" }], // 51.la
+    [
+      "meta",
+      {
+        name: "baidu-site-verification",
+        content: "codeva-GdK2q9MO1i",
+      },
+    ], // 百度收录
+    [
+      "meta",
+      {
+        name: "msvalidate.01",
+        content:
+          "48CABE70F538B8D117567176ABF325AF",
+      },
+    ], // Bing 收录验证
+    [
+      "script",
+      {
+        charset: "UTF-8",
+        id: "LA_COLLECT",
+        src: "//sdk.51.la/js-sdk-pro.min.js",
+      },
+    ], // 51.la
     [
       "script",
       {},
@@ -116,13 +171,20 @@ export default defineConfig({
   },
   sitemap: {
     hostname: "https://vp.teek.top",
-    transformItems: items => {
+    transformItems: (items) => {
       const permalinkItemBak: typeof items = [];
       // 使用永久链接生成 sitemap
-      const permalinks = (globalThis as any).VITEPRESS_CONFIG.site.themeConfig.permalinks;
-      items.forEach(item => {
-        const permalink = permalinks?.map[item.url];
-        if (permalink) permalinkItemBak.push({ url: permalink, lastmod: item.lastmod });
+      const permalinks = (globalThis as any)
+        .VITEPRESS_CONFIG.site.themeConfig
+        .permalinks;
+      items.forEach((item) => {
+        const permalink =
+          permalinks?.map[item.url];
+        if (permalink)
+          permalinkItemBak.push({
+            url: permalink,
+            lastmod: item.lastmod,
+          });
       });
       return [...items, ...permalinkItemBak];
     },
@@ -142,42 +204,60 @@ export default defineConfig({
       prev: "上一页",
       next: "下一页",
     },
-    nav: [
-      { text: "首页", link: "/" },
+    nav,
+    // nav: [
+    //   { text: "首页", link: "/" },
+    //   {
+    //     text: "导航",
+    //     link: "/guide/intro",
+    //     activeMatch: "/01.指南/",
+    //   },
+    //   {
+    //     text: "配置",
+    //     link: "/reference/config",
+    //     activeMatch: "/10.配置/",
+    //   },
+    //   {
+    //     text: "开发",
+    //     link: "/develop/intro",
+    //     activeMatch: "/15.主题开发/",
+    //   },
+    //   {
+    //     text: "功能页",
+    //     items: [
+    //       { text: "归档页", link: "/archives" },
+    //       {
+    //         text: "清单页",
+    //         link: "/articleOverview",
+    //       },
+    //       { text: "登录页", link: "/login" },
+    //       {
+    //         text: "风险链接提示页",
+    //         link: "/risk-link?target=https://vp.teek.top",
+    //       },
+    //       { text: "分类页", link: "/categories" },
+    //       { text: "标签页", link: "/tags" },
+    //     ],
+    //   },
+    // ],
+    socialLinks: [
       {
-        text: "指南",
-        link: "/guide/intro",
-        activeMatch: "/01.指南/",
+        icon: "github",
+        link: "https://github.com/euphoria-mzh",
       },
-      { text: "配置", link: "/reference/config", activeMatch: "/10.配置/" },
-      { text: "开发", link: "/develop/intro", activeMatch: "/15.主题开发/" },
       {
-        text: "功能页",
-        items: [
-          { text: "归档页", link: "/archives" },
-          { text: "清单页", link: "/articleOverview" },
-          { text: "登录页", link: "/login" },
-          { text: "风险链接提示页", link: "/risk-link?target=https://vp.teek.top" },
-          { text: "分类页", link: "/categories" },
-          { text: "标签页", link: "/tags" },
-        ],
-      },
-      {
-        text: version,
-        items: [
-          { text: "历史版本", link: "https://github.com/Kele-Bingtang/vitepress-theme-teek/releases" },
-          { text: "更新日志", link: "https://github.com/Kele-Bingtang/vitepress-theme-teek/blob/dev/CHANGELOG.md" },
-        ],
+        icon: "gitee",
+        link: "https://gitee.com/euphoria-mzh",
       },
     ],
-    socialLinks: [{ icon: "github", link: "https://github.com/Kele-Bingtang/vitepress-theme-teek" }],
 
     search: {
       provider: "local",
     },
     editLink: {
       text: "在 GitHub 上编辑此页",
-      pattern: "https://github.com/Kele-Bingtang/vitepress-theme-teek/edit/master/docs/:path",
+      pattern:
+        "https://github.com/Kele-Bingtang/vitepress-theme-teek/edit/master/docs/:path",
     },
   },
 });

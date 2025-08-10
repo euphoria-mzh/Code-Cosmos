@@ -30,43 +30,50 @@ const teekBlogCommonConfig: TeekConfig = {
       {
         name: "Teeker",
         desc: "朝圣的使徒，正在走向编程的至高殿堂！",
-        avatar: "https://testingcf.jsdelivr.net/gh/Kele-Bingtang/static/user/avatar2.png",
+        avatar:
+          "https://testingcf.jsdelivr.net/gh/Kele-Bingtang/static/user/avatar2.png",
         link: "http://notes.teek.top/",
       },
       {
         name: "vuepress-theme-vdoing",
         desc: "🚀一款简洁高效的VuePress 知识管理&博客 主题",
-        avatar: "https://doc.xugaoyi.com/img/logo.png",
+        avatar:
+          "https://doc.xugaoyi.com/img/logo.png",
         link: "https://doc.xugaoyi.com/",
       },
       {
         name: "One",
         desc: "明心静性，爱自己",
-        avatar: "https://onedayxyy.cn/img/xyy-touxiang.png",
+        avatar:
+          "https://onedayxyy.cn/img/xyy-touxiang.png",
         link: "https://onedayxyy.cn/",
       },
       {
         name: "Hyde Blog",
         desc: "人心中的成见是一座大山",
-        avatar: "https://teek.seasir.top/avatar/avatar.webp",
+        avatar:
+          "https://teek.seasir.top/avatar/avatar.webp",
         link: "https://teek.seasir.top/",
       },
       {
         name: "二丫讲梵",
         desc: "💻学习📝记录🔗分享",
-        avatar: "https://wiki.eryajf.net/img/logo.png",
+        avatar:
+          "https://wiki.eryajf.net/img/logo.png",
         link: " https://wiki.eryajf.net/",
       },
       {
         name: "粥里有勺糖",
         desc: "简约风的 VitePress 博客主题",
-        avatar: "https://theme.sugarat.top/logo.png",
+        avatar:
+          "https://theme.sugarat.top/logo.png",
         link: "https://theme.sugarat.top/",
       },
       {
         name: "VitePress 快速上手中文教程",
         desc: "如果你也想搭建它，那跟我一起做吧",
-        avatar: "https://avatars.githubusercontent.com/u/90893790?v=4",
+        avatar:
+          "https://avatars.githubusercontent.com/u/90893790?v=4",
         link: "https://vitepress.yiov.top/",
       },
       {
@@ -97,7 +104,8 @@ export const teekBlogConfig: TeekConfig = {
   ...teekBlogCommonConfig,
   banner: {
     name: "🎉 Teek Blog",
-    description: "故事由我书写，旅程由你见证，传奇由她聆听 —— 来自 Young Kbt",
+    description:
+      "故事由我书写，旅程由你见证，传奇由她聆听 —— 来自 Young Kbt",
     bgStyle: "partImg",
   },
 };
@@ -108,7 +116,11 @@ export const teekBlogParkConfig: TeekConfig = {
   banner: {
     name: "🎉 Teek Blog",
     bgStyle: "partImg",
-    imgSrc: ["/blog/bg1.webp", "/blog/bg2.webp", "/blog/bg3.webp"],
+    imgSrc: [
+      "/blog/bg1.webp",
+      "/blog/bg2.webp",
+      "/blog/bg3.webp",
+    ],
     description: [
       "故事由我书写，旅程由你见证，传奇由她聆听 —— 来自 Young Kbt",
       "积跬步以至千里，致敬每个爱学习的你 —— 来自 Evan Xu",
@@ -127,7 +139,11 @@ export const teekBlogFullConfig: TeekConfig = {
   banner: {
     name: "🎉 Teek Blog",
     bgStyle: "fullImg",
-    imgSrc: ["/blog/bg1.webp", "/blog/bg2.webp", "/blog/bg3.webp"],
+    imgSrc: [
+      "/blog/bg1.webp",
+      "/blog/bg2.webp",
+      "/blog/bg3.webp",
+    ],
     description: [
       "故事由我书写，旅程由你见证，传奇由她聆听 —— 来自 Young Kbt",
       "积跬步以至千里，致敬每个爱学习的你 —— 来自 Evan Xu",
@@ -151,7 +167,11 @@ export const teekBlogBodyConfig: TeekConfig = {
   ...teekBlogCommonConfig,
   pageStyle: "segment-nav",
   bodyBgImg: {
-    imgSrc: ["/blog/bg1.webp", "/blog/bg2.webp", "/blog/bg3.webp"],
+    imgSrc: [
+      "/blog/bg1.webp",
+      "/blog/bg2.webp",
+      "/blog/bg3.webp",
+    ],
   },
   themeEnhance: {
     layoutSwitch: {
@@ -170,7 +190,11 @@ export const teekBlogCardConfig: TeekConfig = {
   banner: {
     name: "🎉 Teek Blog",
     bgStyle: "fullImg",
-    imgSrc: ["/blog/bg1.webp", "/blog/bg2.webp", "/blog/bg3.webp"],
+    imgSrc: [
+      "/blog/bg1.webp",
+      "/blog/bg2.webp",
+      "/blog/bg3.webp",
+    ],
     description: [
       "故事由我书写，旅程由你见证，传奇由她聆听 —— 来自 Young Kbt",
       "积跬步以至千里，致敬每个爱学习的你 —— 来自 Evan Xu",

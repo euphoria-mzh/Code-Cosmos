@@ -5,44 +5,52 @@ tk:
   teekHome: false
 
 hero:
-  name: Teek
-  text: VitePress 主题
-  tagline: ✨一个轻量、简洁高效、灵活配置，易于扩展的 VitePress 主题
+  name: Zuhau・Code Cosmos
+  text: "当硅基生命遇见碳基文明，宇宙开始自我编程"
+  tagline: ✨温故而知新
   actions:
     - theme: brand
-      text: 开始
+      text: 导航
       link: /guide/quickstart
     - theme: alt
-      text: 配置
-      link: /reference/config
+      text: 关于我
+      link: /about-me.md
   image:
-    src: /teek-logo-large.png
+    src: /avatar.png
     alt: Teek
 
 features:
-  - icon: 📖
-    title: 结构化 && 体系化
-    details: 自动生成侧边栏、目录页、索引页、面包屑等，轻松构建一个结构化知识库。
-  - icon: 🎉
-    title: 碎片化 & 个性化
-    details: 提供快速构建知识的碎片化形态，并提供大量个性化的主题配置。
-  - icon: 🎇
-    title: 文档风 & 博客风
-    details: 支持通过配置随意切换两种模式，支持个人博客、文档站、知识库等场景。
-  - icon: 📝
-    title: 专注内容
-    details: 只需 Markdown 即可轻松创建美观的文档站点，配合多维索引快速定位每个知识点。
+  - icon: 🗂
+    title: CodePen
+    details: 前端有意思的小页面
+    link: /FE/FeProject/魔法卡.md
+    linkText: 前端物语
+  - icon: 🔞
+    title: image
+    details: 那些年我们喜欢的壁纸
+    link: /Life/壁纸/README.md
+    linkText: Image
+  - icon: 🎖️
+    title: C#学习日记
+    details: 相关学习内容
+    link: /BE/CSharp/README.md
+    linkText: 学习攻略
+  - icon: 🎀
+    title: 系统美化教程
+    details: Windows相关
+    link: /Tutorial/README.md
+    linkText: 系统美化
+  - icon: ⛈️
+    title: 代码块
+    details: js常用代码块
+    link: /FE/Javascript/代码块.md
+    linkText: 代码块
+  - icon: 🍁
+    title: 温故而知新
+    details: '<small class="bottom-small">三流前端开发工程师</small>'
+    link: /about-me
+    linkText: about
 ---
-
-## 💡 反馈交流
-
-在使用过程中有任何问题和想法，请给我提 [Issue](https://github.com/Kele-Bingtang/vitepress-theme-teek/issues)。 你也可以在 Issue 查看别人提的问题和解决方案。
-
-或者加入我们的交流群（添加我的微信并备注 <mark>进群</mark>）：
-
-<img src="https://gcore.jsdelivr.net/gh/Kele-Bingtang/static/index/20250412000919.png" alt="添加我微信备注「进群」" style="width: 180px;" />
-
-如果图片链接失效，可以在微信右上角 -> 添加朋友，然后搜索 `teekers` 来添加我的微信。
 
 <style>
 
