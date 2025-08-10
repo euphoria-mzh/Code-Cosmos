@@ -25,66 +25,7 @@ const teekBlogCommonConfig: TeekConfig = {
       provider: "busuanzi",
     },
   },
-  friendLink: {
-    list: [
-      {
-        name: "Teeker",
-        desc: "朝圣的使徒，正在走向编程的至高殿堂！",
-        avatar:
-          "https://testingcf.jsdelivr.net/gh/Kele-Bingtang/static/user/avatar2.png",
-        link: "http://notes.teek.top/",
-      },
-      {
-        name: "vuepress-theme-vdoing",
-        desc: "🚀一款简洁高效的VuePress 知识管理&博客 主题",
-        avatar:
-          "https://doc.xugaoyi.com/img/logo.png",
-        link: "https://doc.xugaoyi.com/",
-      },
-      {
-        name: "One",
-        desc: "明心静性，爱自己",
-        avatar:
-          "https://onedayxyy.cn/img/xyy-touxiang.png",
-        link: "https://onedayxyy.cn/",
-      },
-      {
-        name: "Hyde Blog",
-        desc: "人心中的成见是一座大山",
-        avatar:
-          "https://teek.seasir.top/avatar/avatar.webp",
-        link: "https://teek.seasir.top/",
-      },
-      {
-        name: "二丫讲梵",
-        desc: "💻学习📝记录🔗分享",
-        avatar:
-          "https://wiki.eryajf.net/img/logo.png",
-        link: " https://wiki.eryajf.net/",
-      },
-      {
-        name: "粥里有勺糖",
-        desc: "简约风的 VitePress 博客主题",
-        avatar:
-          "https://theme.sugarat.top/logo.png",
-        link: "https://theme.sugarat.top/",
-      },
-      {
-        name: "VitePress 快速上手中文教程",
-        desc: "如果你也想搭建它，那跟我一起做吧",
-        avatar:
-          "https://avatars.githubusercontent.com/u/90893790?v=4",
-        link: "https://vitepress.yiov.top/",
-      },
-      {
-        name: "友人A",
-        desc: "おとといは兎をみたの，昨日は鹿，今日はあなた",
-        avatar: "http://niubin.site/logo.jpg",
-        link: "http://niubin.site/",
-      },
-    ],
-    autoScroll: true,
-  },
+
   social: [
     {
       icon: "mdi:github",
@@ -103,9 +44,9 @@ const teekBlogCommonConfig: TeekConfig = {
 export const teekBlogConfig: TeekConfig = {
   ...teekBlogCommonConfig,
   banner: {
-    name: "🎉 Teek Blog",
+    name: "🎉 code cosmos",
     description:
-      "故事由我书写，旅程由你见证，传奇由她聆听 —— 来自 Young Kbt",
+      "当硅基生命遇见碳基文明，宇宙开始自我编程",
     bgStyle: "partImg",
   },
 };
@@ -114,7 +55,7 @@ export const teekBlogConfig: TeekConfig = {
 export const teekBlogParkConfig: TeekConfig = {
   ...teekBlogCommonConfig,
   banner: {
-    name: "🎉 Teek Blog",
+    name: "🎉 code cosmos",
     bgStyle: "partImg",
     imgSrc: [
       "/blog/bg1.webp",
@@ -122,9 +63,9 @@ export const teekBlogParkConfig: TeekConfig = {
       "/blog/bg3.webp",
     ],
     description: [
-      "故事由我书写，旅程由你见证，传奇由她聆听 —— 来自 Young Kbt",
-      "积跬步以至千里，致敬每个爱学习的你 —— 来自 Evan Xu",
-      "这一生波澜壮阔或是不惊都没问题 —— 来自 Weibw",
+      "欢迎来到 code cosmos",
+      "当硅基生命遇见碳基文明，宇宙开始自我编程",
+      "温故知新",
     ],
     descStyle: "switch",
   },
@@ -137,7 +78,7 @@ export const teekBlogFullConfig: TeekConfig = {
     coverImgMode: "full",
   },
   banner: {
-    name: "🎉 Teek Blog",
+    name: "🎉 code cosmos",
     bgStyle: "fullImg",
     imgSrc: [
       "/blog/bg1.webp",
@@ -145,9 +86,9 @@ export const teekBlogFullConfig: TeekConfig = {
       "/blog/bg3.webp",
     ],
     description: [
-      "故事由我书写，旅程由你见证，传奇由她聆听 —— 来自 Young Kbt",
-      "积跬步以至千里，致敬每个爱学习的你 —— 来自 Evan Xu",
-      "这一生波澜壮阔或是不惊都没问题 —— 来自 Weibw",
+      "欢迎来到 code cosmos",
+      "当硅基生命遇见碳基文明，宇宙开始自我编程",
+      "温故知新",
     ],
     descStyle: "types",
   },
@@ -188,7 +129,7 @@ export const teekBlogCardConfig: TeekConfig = {
   },
   homeCardListPosition: "left",
   banner: {
-    name: "🎉 Teek Blog",
+    name: "🎉 code cosmos",
     bgStyle: "fullImg",
     imgSrc: [
       "/blog/bg1.webp",
@@ -196,9 +137,9 @@ export const teekBlogCardConfig: TeekConfig = {
       "/blog/bg3.webp",
     ],
     description: [
-      "故事由我书写，旅程由你见证，传奇由她聆听 —— 来自 Young Kbt",
-      "积跬步以至千里，致敬每个爱学习的你 —— 来自 Evan Xu",
-      "这一生波澜壮阔或是不惊都没问题 —— 来自 Weibw",
+      "欢迎来到 code cosmos",
+      "当硅基生命遇见碳基文明，宇宙开始自我编程",
+      "温故知新",
     ],
     descStyle: "types",
   },

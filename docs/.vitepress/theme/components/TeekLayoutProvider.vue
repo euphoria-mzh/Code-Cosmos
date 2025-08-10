@@ -8,7 +8,7 @@ import { useRibbon } from "../composables/useRibbon";
 import { useRuntime } from "../composables/useRuntime";
 import ConfigSwitch from "./ConfigSwitch.vue";
 import ContributeChart from "./ContributeChart.vue";
-import NotFound from "./404.vue"; 
+import NotFound from "./404.vue";
 
 const ns = "layout-provider";
 const { frontmatter } = useData();
@@ -19,11 +19,17 @@ const teekConfig = ref(teekDocConfig);
 provide(teekConfigContext, teekConfig);
 
 // 彩带背景
-const { start: startRibbon, stop: stopRibbon } = useRibbon({ immediate: false, clickReRender: true });
-// 页脚运行时间
-const { start: startRuntime, stop: stopRuntime } = useRuntime("2021-10-19 00:00:00", {
-  prefix: `<span style="width: 16px; display: inline-block; vertical-align: -3px; margin-right: 3px;">${clockIcon}</span>小破站已运行 `,
+const { start: startRibbon, stop: stopRibbon } = useRibbon({
+  immediate: false,
+  clickReRender: true,
 });
+// 页脚运行时间
+const { start: startRuntime, stop: stopRuntime } = useRuntime(
+  "2025-8-10 00:00:00",
+  {
+    prefix: `<span style="width: 16px; display: inline-block; vertical-align: -3px; margin-right: 3px;">${clockIcon}</span>本站已运行 `,
+  }
+);
 
 const watchRuntimeAndRibbon = async (layout: string, style: string) => {
   const isHome = layout === "home";
@@ -36,11 +42,19 @@ const watchRuntimeAndRibbon = async (layout: string, style: string) => {
   else stopRuntime();
 
   // 博客类风格的首页显示彩带 & 设置了 pageStyle 的文章页显示彩带
-  if ((isHome && isBlog && style !== "blog-body") || (isDoc && teekConfig.value.pageStyle)) startRibbon();
+  if (
+    (isHome && isBlog && style !== "blog-body") ||
+    (isDoc && teekConfig.value.pageStyle)
+  )
+    startRibbon();
   else stopRibbon();
 };
 
-watch(frontmatter, async newVal => watchRuntimeAndRibbon(newVal.layout, currentStyle.value), { immediate: true });
+watch(
+  frontmatter,
+  async (newVal) => watchRuntimeAndRibbon(newVal.layout, currentStyle.value),
+  { immediate: true }
+);
 
 const handleConfigSwitch = (config: TeekConfig, style: string) => {
   teekConfig.value = config;
