@@ -11,31 +11,6 @@ export const nav = [
     ]
   },
   {
-    text: '🍀前端',
-    items: [
-      { text: 'HTML', link: '/FE/HTML/index' },
-      { text: 'CSS', link: '/FE/CSS/index.md' },
-      { text: 'JavaScript', link: '/FE/Javascript/README.md' },
-      { text: 'TypeScript', link: '/FE/Typescript/README.md' },
-      { text: 'Vue', link: '/FE/Vue/README.md' },
-      { text: 'React', link: '/FE/React/README.md' },
-      { text: 'UniApp', link: '/FE/uniapp/README.md' },
-      { text: 'Browser and NetWork', link: '/FE/B-and-N/浏览器网络.md' },
-      { text: 'CodePen', link: '/FE/FeProject/魔法卡.md' },
-
-    ]
-  },
-  {
-    text: '🍂后端',
-    items: [
-      { text: 'Java', link: '/BE/Java/README.md' },
-      { text: 'Node', link: '/BE/node/README.md' },
-      { text: 'Python', link: '/BE/Python/README.md' },
-      { text: 'C#', link: '/BE/CSharp/README.md' },
-
-    ]
-  },
-  {
     text: '🗂文档',
     items: [
       {
@@ -92,5 +67,4 @@ export const nav = [
       { text: 'Markdown语法', link: '/Tutorial/markdown语法.md' },
     ]
   },
-  { text: '🖼️壁纸', link: '/Life/壁纸/README.md' },
 ]
