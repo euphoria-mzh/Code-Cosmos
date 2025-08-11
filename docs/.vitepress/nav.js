@@ -2,24 +2,8 @@ export const nav = [
   { text: '🏠主页', link: '/' },
   { text: '🧭导航', link: '/nav/nav.md', activeMatch: '^/nav' },
   {
-    text: '🏗️注安',
-    items: [
-      { text: '法律法规', link: '/CSE/法律法规/1.md' },
-      { text: '安全管理', link: '/CSE/安全管理/1.md' },
-      { text: '生产技术', link: '/CSE/生产技术/1.md' },
-      { text: '矿山实务', link: '/CSE/矿山实务/1.md' },
-    ]
-  },
-  {
     text: '🗂文档',
     items: [
-      {
-        text: '框架',
-        items: [
-          { text: 'Electron', link: '/Document/框架/Electron.md' },
-          { text: 'Koa', link: '/Document/框架/Koa.md' },
-        ]
-      },
       {
         text: '终端命令',
         items: [

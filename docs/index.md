@@ -10,41 +10,27 @@ hero:
   tagline: ✨温故而知新
   actions:
     - theme: brand
-      text: 导航
+      text: 🧭 导航
       link: /guide/quickstart
     - theme: alt
-      text: 关于我
+      text: 🇨🇳 关于我
       link: /about-me.md
   image:
     src: /avatar.png
     alt: Teek
 
 features:
+  - icon: 💻
+    title: Mac新机开荒
+    details: 电脑配置、软件推荐、系统美化
+    link: /Tools/实用软件/mac.md
+    linkText: Macos
+
   - icon: 🗂
-    title: CodePen
-    details: 前端有意思的小页面
-    link: /FE/FeProject/魔法卡.md
-    linkText: 前端物语
-  - icon: 🔞
-    title: image
-    details: 那些年我们喜欢的壁纸
-    link: /Life/壁纸/README.md
-    linkText: Image
-  - icon: 🎖️
-    title: C#学习日记
-    details: 相关学习内容
-    link: /BE/CSharp/README.md
-    linkText: 学习攻略
-  - icon: 🎀
-    title: 系统美化教程
-    details: Windows相关
-    link: /Tutorial/README.md
-    linkText: 系统美化
-  - icon: ⛈️
-    title: 代码块
-    details: js常用代码块
-    link: /FE/Javascript/代码块.md
-    linkText: 代码块
+    title: Chrome插件
+    details: 主包自己使用的插件
+    link: /Tools/实用插件/Chrome.md
+    linkText: 插件
   - icon: 🍁
     title: 温故而知新
     details: '<small class="bottom-small">三流前端开发工程师</small>'
@@ -57,6 +43,16 @@ features:
 /* 彩虹动画 */
 :root {
   animation: rainbow 12s linear infinite;
+  --vp-c-brand-1: #18794e;
+  --vp-c-brand-2: #299764;
+  --vp-c-brand-3: #30a46c;
+}
+
+
+.dark {
+    --vp-c-brand-1: #3dd68c;
+    --vp-c-brand-2: #30a46c;
+    --vp-c-brand-3: #298459;
 }
 
 @media (min-width: 640px) {
