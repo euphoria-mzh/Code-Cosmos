@@ -51,6 +51,11 @@ const teekConfig = defineTeekConfig({
         "https://github.com/Kele-Bingtang/vitepress-theme-teek/blob/master/docs",
     },
   },
+  themeEnhance: {
+    themeColor: {
+      disabled: true,
+    },
+  },
 });
 
 // https://vitepress.dev/reference/site-config
@@ -67,7 +72,7 @@ export default defineConfig({
       {
         rel: "icon",
         type: "image/svg+xml",
-        href: "/teek-logo-mini.svg",
+        href: "/favicon.svg",
       },
     ],
     [
@@ -75,7 +80,7 @@ export default defineConfig({
       {
         rel: "icon",
         type: "image/png",
-        href: "/teek-logo-mini.png",
+        href: "/favicon.png",
       },
     ],
     [
@@ -90,14 +95,14 @@ export default defineConfig({
       "meta",
       {
         property: "og:title",
-        content: "Teek | VitePress Theme",
+        content: "Euphoria-mzh",
       },
     ],
     [
       "meta",
       {
         property: "og:site_name",
-        content: "Teek",
+        content: "Euphoria-mzh",
       },
     ],
     [
@@ -113,7 +118,10 @@ export default defineConfig({
       "meta",
       { name: "description", description },
     ],
-    ["meta", { name: "author", content: "Teek" }],
+    [
+      "meta",
+      { name: "author", content: "Euphoria-mzh" },
+    ],
     [
       "meta",
       {
@@ -191,7 +199,7 @@ export default defineConfig({
   },
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
-    logo: "/teek-logo-mini.svg",
+    logo: "/logo.svg",
     darkModeSwitchLabel: "主题",
     sidebarMenuLabel: "菜单",
     returnToTopLabel: "返回顶部",
@@ -205,7 +213,6 @@ export default defineConfig({
       next: "下一页",
     },
     nav,
-
     socialLinks: [
       {
         icon: "github",
@@ -220,10 +227,10 @@ export default defineConfig({
     search: {
       provider: "local",
     },
-    editLink: {
-      text: "在 GitHub 上编辑此页",
-      pattern:
-        "https://github.com/Kele-Bingtang/vitepress-theme-teek/edit/master/docs/:path",
-    },
+    // editLink: {
+    //   text: "在 GitHub 上编辑此页",
+    //   pattern:
+    //     "https://github.com/Kele-Bingtang/vitepress-theme-teek/edit/master/docs/:path",
+    // },
   },
 });

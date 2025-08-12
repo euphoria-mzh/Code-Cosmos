@@ -6,13 +6,24 @@ type NavData = {
 };
 
 export const NAV_DATA: NavData[] = [
+  // AI 导航
   {
     title: "AI 导航",
     items: [
       {
-        icon: "",
+        icon: "https://openai.com/favicon.svg",
         title: "ChatGPT（最强）",
         link: "https://chat.openai.com/chat",
+      },
+      {
+        icon: "https://lf-flow-web-cdn.doubao.com/obj/flow-doubao/doubao/web/logo-icon.png",
+        title: "豆包（免费）",
+        link: "https://www.doubao.com/chat/",
+      },
+      {
+        icon: "https://www.deepseek.com/favicon.ico",
+        title: "deepseek（免费）",
+        link: "https://www.deepseek.com/",
       },
       {
         icon: "https://cdn.aidutu.cn/res/head/ai.png",
@@ -25,7 +36,7 @@ export const NAV_DATA: NavData[] = [
         link: "https://www.notion.so",
       },
       {
-        icon: "https://www.midjourney.com/apple-touch-icon.png",
+        icon: "https://www.midjourney.com/public/apple-touch-icon.png",
         title: "Midjourney（绘画）",
         link: "https://www.midjourney.com",
       },
@@ -41,6 +52,7 @@ export const NAV_DATA: NavData[] = [
       },
     ],
   },
+  // 常用网址
   {
     title: "常用网址",
     items: [
@@ -70,6 +82,7 @@ export const NAV_DATA: NavData[] = [
       },
     ],
   },
+  // 常用工具
   {
     title: "常用工具",
     items: [
@@ -92,13 +105,13 @@ export const NAV_DATA: NavData[] = [
         link: "https://devtool.tech",
       },
       {
-        icon: "https://static.runoob.com/images/c-runoob-logo.ico",
+        icon: "https://static.jyshare.com/images/c-runoob-logo.ico",
         title: "菜鸟工具",
         desc: "菜鸟工具 不止于工具",
         link: "https://c.runoob.com/",
       },
       {
-        icon: "https://www.sjsdh.cn/wp-content/uploads/2021/09/%E5%9B%BE%E6%A0%87.png",
+        icon: "https://www.sjsdh.cn/wp-content/uploads/2024/11/1731835686-%E6%90%9C%E5%A5%87%E5%AF%BC%E8%88%AA%E5%9B%BE%E6%A0%87.jpg",
         title: "搜奇导航",
         desc: "专注于分享简单实用的网站导航",
         link: "https://www.sjsdh.cn/",
@@ -152,7 +165,7 @@ export const NAV_DATA: NavData[] = [
         link: "https://caniuse.com",
       },
       {
-        icon: "/icons/json-cn.ico",
+        icon: "https://static.json.cn/r/img/favicon/favicon.ico",
         title: "Json 中文网",
         desc: "JSON 在线解析及格式化验证",
         link: "https://www.json.cn",
@@ -189,6 +202,7 @@ export const NAV_DATA: NavData[] = [
       },
     ],
   },
+  // 开发工具
   {
     title: "开发工具",
     items: [
@@ -229,7 +243,7 @@ export const NAV_DATA: NavData[] = [
         link: "https://www.jetbrains.com/pycharm/",
       },
       {
-        icon: "https://www.gstatic.com/devrel-devsite/prod/vb33fefd4f475972d9db8a48eb99721b7e7821d5a39de2b21c4f6caf579ea0944/android/images/favicon.png",
+        icon: "https://www.gstatic.com/devrel-devsite/prod/vbeaa29e876158dfb06aa429312bd7db69a5340b565a9d05deb2c27ad13316f00/android/images/favicon.svg",
         title: "android studio",
         desc: "谷歌推出的Android集成开发工具",
         link: "https://developer.android.com/studio",
@@ -247,7 +261,7 @@ export const NAV_DATA: NavData[] = [
         link: "https://developers.weixin.qq.com/miniprogram/dev/devtools/download.html",
       },
       {
-        icon: "https://developer.apple.com/design/human-interface-guidelines/macos/images/app-icon-realistic-materials_2x.png",
+        icon: "https://developer.apple.com/favicon.ico",
         title: "xcode",
         desc: "开发 mac 和 ios 应用程序所需的一切工具",
         link: "https://developer.apple.com/xcode/",
@@ -283,7 +297,7 @@ export const NAV_DATA: NavData[] = [
         link: "https://www.vim.org/",
       },
       {
-        icon: "https://img.torrentsky.com/d/file/p/2022/07-05/478673f529d98db4fa31e5395acda287.png",
+        icon: "https://www.jetbrains.com/icon.svg?r=1234",
         title: "JetBrains PhpStorm",
         desc: "PHP 开发的最佳 IDE，支持多种编程语言和框架",
         link: "https://www.jetbrains.com/phpstorm/",
@@ -325,7 +339,7 @@ export const NAV_DATA: NavData[] = [
         link: "https://dbeaver.io/",
       },
       {
-        icon: "https://resp.app/static/css/favicon.png?v=2022",
+        icon: "https://redis.io/favicon.ico",
         title: "Redis Desktop Manager",
         desc: "Redis 客户端推荐工具",
         link: "https://resp.app/",
@@ -343,7 +357,7 @@ export const NAV_DATA: NavData[] = [
         link: "https://studio3t.com/download/",
       },
       {
-        icon: "https://pic.torrentsky.com/d/file/p/2020/01-08/33be60debbd064434e822053c3b819a1.png",
+        icon: "https://www.jetbrains.com/icon.svg?r=1234",
         title: "JetBrains Rider",
         desc: "跨平台的 .NET IDE，支持多种编程语言和框架",
         link: "https://www.jetbrains.com/rider/",
@@ -446,6 +460,7 @@ export const NAV_DATA: NavData[] = [
       },
     ],
   },
+  // Vue 生态
   {
     title: "Vue 生态",
     items: [
@@ -546,10 +561,10 @@ export const NAV_DATA: NavData[] = [
         link: "https://github.com/szqlovepk/vue-admin",
       },
       {
-        icon: "https://iczer.gitee.io/vue-antd-admin-docs/favicon.ico",
+        icon: "https://doc.vue-antd-admin.pages.dev/favicon.ico",
         title: "vue-antd-admin",
         desc: "开箱即用的中台前端/设计解决方案",
-        link: "https://iczer.gitee.io/vue-antd-admin-docs/",
+        link: "https://doc.vue-antd-admin.pages.dev/",
       },
       {
         icon: "https://file.iviewui.com/view-design-logo.png",
@@ -565,6 +580,7 @@ export const NAV_DATA: NavData[] = [
       },
     ],
   },
+  // React 生态
   {
     title: "React 生态",
     items: [
@@ -581,7 +597,7 @@ export const NAV_DATA: NavData[] = [
         link: "https://reactrouter.com",
       },
       {
-        icon: "https://nextjs.org/static/favicon/safari-pinned-tab.svg",
+        icon: "https://nextjs.org/favicon.ico?favicon.e9a7e71a.ico",
         title: "Next.js",
         desc: "一个用于 Web 的 React 框架",
         link: "https://nextjs.org",
@@ -642,6 +658,7 @@ export const NAV_DATA: NavData[] = [
       },
     ],
   },
+  // JavaScript 框架类库
   {
     title: "JavaScript 框架类库",
     items: [
@@ -695,26 +712,27 @@ export const NAV_DATA: NavData[] = [
       },
     ],
   },
+  // CSS 相关
   {
     title: "CSS 相关",
     items: [
       {
-        icon: "https://postcss.org/assets/logo-3e39b0aa.svg",
+        icon: "https://postcss.org/assets/favicon-DbGqNhKa.ico",
         title: "PostCSS",
         desc: "一个用 JavaScript 转换 CSS 的工具",
         link: "https://postcss.org",
       },
       {
-        icon: "https://sass-lang.com/assets/img/logos/logo-b6e1ef6e.svg",
+        icon: "https://sass-lang.com/favicon.ico",
         title: "Sass",
         desc: "一个成熟，稳定，功能强大的专业级 CSS 扩展语言",
         link: "https://sass-lang.com",
       },
       {
-        icon: "https://www.tailwindcss.cn/apple-touch-icon.png",
+        icon: "https://tailwindcss.com/favicons/favicon.ico?v=4",
         title: "TailwindCSS 中文网",
         desc: "一个功能类优先的 CSS 框架",
-        link: "https://www.tailwindcss.cn",
+        link: "https://tailwindcss.com/",
       },
       {
         icon: "https://poke-holo.simey.me/favicon.png",
@@ -724,6 +742,7 @@ export const NAV_DATA: NavData[] = [
       },
     ],
   },
+  // 小程序相关
   {
     title: "小程序相关",
     items: [
@@ -734,10 +753,10 @@ export const NAV_DATA: NavData[] = [
         link: "https://developers.weixin.qq.com/miniprogram/dev/framework/",
       },
       {
-        icon: "/icons/taro.svg",
+        icon: "https://tls.jd.com/o2-website/favicon.ico",
         title: "Taro",
         desc: "多端统一开发解决方案",
-        link: "https://taro.jd.com",
+        link: "https://taro.aotu.io/",
       },
       {
         icon: "https://web-assets.dcloud.net.cn/unidoc/zh/icon.png",
@@ -765,11 +784,12 @@ export const NAV_DATA: NavData[] = [
       },
     ],
   },
+  // Node 相关
   {
     title: "Node 相关",
     items: [
       {
-        icon: "/icons/nodejs.svg",
+        icon: "https://nodejs.org/static/images/favicons/favicon.png",
         title: "Node.js",
         desc: "Node.js 是一个基于 Chrome V8 引擎的 JavaScript 运行环境",
         link: "https://nodejs.org/zh-cn",
@@ -806,6 +826,7 @@ export const NAV_DATA: NavData[] = [
       },
     ],
   },
+  // 数据可视化
   {
     title: "可视化",
     items: [
@@ -816,13 +837,13 @@ export const NAV_DATA: NavData[] = [
         link: "https://echarts.apache.org/zh/index.html",
       },
       {
-        icon: "https://antv.vision/icons/icon-72x72.png",
+        icon: "https://gw.alipayobjects.com/zos/antfincdn/FLrTNDvlna/antv.png",
         title: "AntV",
         desc: "蚂蚁集团全新一代数据可视化解决方案，致力于提供一套简单方便、专业可靠、无限可能的数据可视化最佳实践。",
         link: "https://antv.vision/zh/",
       },
       {
-        icon: "https://d3js.org/favicon.png",
+        icon: "https://d3js.org/logo.png",
         title: "D3.js",
         desc: "一个遵循 Web 标准用于可视化数据的 JavaScript 库",
         link: "https://d3js.org",
@@ -842,6 +863,7 @@ export const NAV_DATA: NavData[] = [
       },
     ],
   },
+  // 编译&构建&打包
   {
     title: "编译&构建&打包",
     items: [
@@ -889,6 +911,7 @@ export const NAV_DATA: NavData[] = [
       },
     ],
   },
+  // 站点生成器
   {
     title: "站点生成器",
     items: [
@@ -924,6 +947,7 @@ export const NAV_DATA: NavData[] = [
       },
     ],
   },
+  // 图标动画库
   {
     title: "图标动画库",
     items: [
@@ -946,13 +970,40 @@ export const NAV_DATA: NavData[] = [
         link: "",
       },
       {
-        icon: "https://greensock.com/uploads/monthly_2018_06/favicon.ico.4811a987b377f271db584b422f58e5a7.ico",
+        icon: "https://gsap.com/favicon-32x32.png",
         title: "GreenSock",
         desc: "用代码制作动画",
         link: "https://greensock.com/docs/v3",
       },
+      {
+        icon: "https://www.webfx.com/wp-content/uploads/2021/10/favicon.png",
+        title: "emoji-cheat-sheet",
+        desc: "emoji 表情大全",
+        link: "https://www.webfx.com/tools/emoji-cheat-sheet/",
+      },
+      {
+        icon: "https://emojipedia.org/favicon.ico",
+        title: "emojipedia",
+        desc: "emoji 表情",
+        link: "https://emojipedia.org/",
+      },
+      {
+        icon: "https://gitmoji.dev/static/favicon-32x32.png",
+        title: "gitmoji",
+        desc: "An emoji guide for your commit messages",
+        link: "https://gitmoji.dev/",
+      },
+      {
+        icon: {
+          svg: '<svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>GitHub</title><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>',
+        },
+        title: "emoji表情库",
+        desc: "github emoji表情库",
+        link: "https://github.com/markdown-it/markdown-it-emoji/blob/master/lib/data/full.mjs",
+      },
     ],
   },
+  // 前端学习资料
   {
     title: "前端学习资料",
     items: [
@@ -969,19 +1020,13 @@ export const NAV_DATA: NavData[] = [
         link: "https://apifox.com/apidoc/shared-fa9274ac-362e-4905-806b-6135df6aa90e/doc-842135",
       },
       {
-        icon: "http://zhoushugang.gitee.io/erabbit-client-pc-document/hero.png",
-        title: "小兔鲜",
-        desc: "vue3 pc 商城项目",
-        link: "http://zhoushugang.gitee.io/erabbit-client-pc-document/guide/01-intro.html#_01-%E9%A1%B9%E7%9B%AE%E4%BB%8B%E7%BB%8D",
-      },
-      {
-        icon: "https://developer.mozilla.org/apple-touch-icon.6803c6f0.png",
+        icon: "https://developer.mozilla.org/favicon.ico",
         title: "MDN | Web 开发者指南",
         desc: "Mozilla 的开发者平台，提供了大量关于 HTML、CSS 和 JavaScript 的详细文档以及广泛的 Web API 参考资",
         link: "https://developer.mozilla.org/zh-CN",
       },
       {
-        icon: "https://static.runoob.com/images/favicon.ico",
+        icon: "https://static.jyshare.com/images/favicon.ico",
         title: "菜鸟教程",
         desc: "学的不仅是技术，更是梦想！",
         link: "https://www.runoob.com",
@@ -994,6 +1039,7 @@ export const NAV_DATA: NavData[] = [
       },
     ],
   },
+  // 技术社区
   {
     title: "技术社区",
     items: [
@@ -1078,12 +1124,6 @@ export const NAV_DATA: NavData[] = [
         link: "https://www.51cto.com/",
       },
       {
-        title: "开发者头条",
-        icon: "https://toutiao.io/favicon.ico",
-        desc: "程序员分享平台",
-        link: "https://toutiao.io/",
-      },
-      {
         title: "InfoQ",
         icon: "https://static001.infoq.cn/static/write/img/write-favicon.jpg",
         desc: "一个实践驱动的技术社区",
@@ -1109,12 +1149,13 @@ export const NAV_DATA: NavData[] = [
       },
       {
         title: "黑苹果",
-        icon: "",
+        icon: "https://github.githubassets.com/favicons/favicon.png",
         desc: "Hackintosh长期维护模式EFI及安装教程",
         link: "https://github.com/daliansky/Hackintosh",
       },
     ],
   },
+  // 摸鱼专用
   {
     title: "摸鱼专用",
     items: [
@@ -1143,10 +1184,16 @@ export const NAV_DATA: NavData[] = [
         link: "https://www.bilibili.com",
       },
       {
-        icon: "http://www.dm99.me/template/mytheme/statics/img/favicon.ico",
+        icon: "https://yinghuadongman.cn/upload/mxprocms/20240825-1/cd920da4b791b39a563821f39f0647f6.png",
         title: "樱花动漫",
         desc: "专注动漫的网站",
-        link: "http://www.dm99.me/",
+        link: "https://yinghuadongman.cn/",
+      },
+      {
+        icon: "https://dl.dushe1.app/dsdy/01/images/favicon.ico",
+        title: "毒舌电影",
+        desc: "免费观影、电视剧、动漫、综艺等",
+        link: "https://www.dushe1.app/",
       },
       {
         icon: "https://www.youtube.com/s/desktop/014dbbed/img/favicon_48x48.png",
@@ -1155,15 +1202,15 @@ export const NAV_DATA: NavData[] = [
         link: "https://www.youtube.com",
       },
       {
-        icon: "/icons/twitter.svg",
+        icon: "https://abs.twimg.com/favicons/twitter.3.ico",
         title: "Twitter",
-        desc: "",
+        desc: "推特现改名X",
         link: "https://twitter.com",
       },
       {
-        icon: "/icons/pixiv.png",
+        icon: "https://www.pixiv.net/favicon20250122.ico",
         title: "Pixiv",
-        desc: "",
+        desc: "插画",
         link: "https://www.pixiv.net",
       },
       {
@@ -1174,6 +1221,7 @@ export const NAV_DATA: NavData[] = [
       },
     ],
   },
+  // 科学上网
   {
     title: "科学上网",
     items: [
@@ -1196,10 +1244,10 @@ export const NAV_DATA: NavData[] = [
         link: "https://www.mojie.cyou/#/plan",
       },
       {
-        icon: "",
+        icon: "https://fnyun.eu.org/favicon.ico",
         title: "飞鸟云",
         desc: "科学上网机场",
-        link: "https://feiniaoyun.info/#/dashboard",
+        link: "https://fnyun.eu.org/#/dashboard",
       },
       {
         icon: "https://smsactivate.s3.eu-central-1.amazonaws.com/assets/img/activate_favicon.png",

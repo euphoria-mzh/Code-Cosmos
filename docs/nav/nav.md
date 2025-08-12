@@ -5,6 +5,7 @@ sidebar: false
 prev: false
 next: false
 gitChangelog: false
+articleUpdate: false,
 ---
 
 <script setup>
