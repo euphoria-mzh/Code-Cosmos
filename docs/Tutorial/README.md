@@ -1,13 +1,10 @@
 ---
 title: Win11美化
-pic: /images/23.jpg
 date: "2020-08-08"
 sidebar: "auto"
-categories:
-  - 教程
-tags:
-  - 美化
 ---
+
+# Windows 美化
 
 ::: tip 摘要
 Win11 美化教程

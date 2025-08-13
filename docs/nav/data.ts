@@ -52,6 +52,36 @@ export const NAV_DATA: NavData[] = [
       },
     ],
   },
+  // Mac软件资源
+  {
+    title: "Mac软件资源",
+    items: [
+      {
+        icon: "https://www.qijishow.com/img/ico.ico",
+        title: "奇迹秀工具箱",
+        desc: "Mac软件资源",
+        link: "https://www.qijishow.com/down/index.html",
+      },
+      {
+        icon: "https://static.skqandroid.com/images/favicon.ico",
+        title: "MacBL",
+        desc: "Mac软件资源",
+        link: "https://www.macbl.com/",
+      },
+      {
+        icon: "https://www.macyy.cn/favicon.ico",
+        title: "MacYY",
+        desc: "Mac软件资源下载站",
+        link: "https://www.macyy.cn/",
+      },
+      {
+        icon: "https://www.macwk.com/favicon.ico",
+        title: "MacWK",
+        desc: "Mac软件资源下载站",
+        link: "https://www.macwk.com/",
+      },
+    ],
+  },
   // 常用网址
   {
     title: "常用网址",
@@ -75,7 +105,7 @@ export const NAV_DATA: NavData[] = [
         link: "https://open.weixin.qq.com/",
       },
       {
-        icon: "https://wx.gtimg.com/core/favicon.ico",
+        icon: "https://pay.weixin.qq.com/favicon.ico",
         title: "微信官方文档",
         desc: "微信支付Api文档",
         link: "https://developers.weixin.qq.com/doc/",

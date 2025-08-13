@@ -11,6 +11,12 @@ export const nav = [
           { text: 'Git', link: '/Document/终端命令行/git.md' },
         ]
       },
+      {
+        text: '中级注安讲义',
+        items: [
+          { text: '法律法规', link: '/Document/中级注安讲义/01-法规讲义.md' },
+        ]
+      },
     ]
   },
   {

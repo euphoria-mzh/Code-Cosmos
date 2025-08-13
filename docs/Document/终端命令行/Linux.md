@@ -1,15 +1,12 @@
 ---
 title: Linux
 date: 2020-05-29
-pic: /images/17.jpg
-categories:
- - 常用工具
-tags:
- - 命令行工具
 ---
 
+# Linux 常用命令
+
 :::tip
-Linux常用命令
+Linux 常用命令
 :::
 
 ## 文件操作命令
@@ -48,17 +45,17 @@ Linux常用命令
 
 ### 压缩和解压缩
 
-- `tar -czvf filename.tar.gz dirname/`：将指定目录打包成tar.gz格式压缩文件。
-- `tar -xzvf filename.tar.gz`：解压缩tar.gz格式压缩文件。
-- `zip -r filename.zip dirname/`：将指定目录打包成zip格式压缩文件。
-- `unzip filename.zip`：解压缩zip格式压缩文件。
+- `tar -czvf filename.tar.gz dirname/`：将指定目录打包成 tar.gz 格式压缩文件。
+- `tar -xzvf filename.tar.gz`：解压缩 tar.gz 格式压缩文件。
+- `zip -r filename.zip dirname/`：将指定目录打包成 zip 格式压缩文件。
+- `unzip filename.zip`：解压缩 zip 格式压缩文件。
 
 ## 系统管理命令
 
 ### 系统信息
 
 - `uname -a`：显示当前系统的内核版本和其他基本信息。
-- `cat /proc/cpuinfo`：显示CPU相关信息。
+- `cat /proc/cpuinfo`：显示 CPU 相关信息。
 - `cat /proc/meminfo`：显示内存相关信息。
 - `df -h`：显示磁盘空间使用情况。
 - `free -m`：显示内存使用情况。
@@ -98,24 +95,24 @@ Linux常用命令
 ### 网络配置
 
 - `ifconfig`：显示网络接口信息。
-- `ip addr show`：显示网络接口信息（替代ifconfig）。
-- `ping ipaddress`：测试是否能够ping通指定IP地址。
-- `traceroute ipaddress`：显示到指定IP地址经过的路由节点。
+- `ip addr show`：显示网络接口信息（替代 ifconfig）。
+- `ping ipaddress`：测试是否能够 ping 通指定 IP 地址。
+- `traceroute ipaddress`：显示到指定 IP 地址经过的路由节点。
 - `netstat -an`：显示所有网络连接及其状态。
-- `ss -ant`：显示所有TCP连接及其状态（替代netstat）。
+- `ss -ant`：显示所有 TCP 连接及其状态（替代 netstat）。
 - `route -n`：显示当前系统的路由表。
 
 ### 网络工具
 
-- `wget url`：下载指定URL的文件。
-- `curl url`：以命令行方式访问指定URL。
+- `wget url`：下载指定 URL 的文件。
+- `curl url`：以命令行方式访问指定 URL。
 - `scp sourcefile targetuser@targethost:targetdir/`：将本地文件上传到远程主机。
-- `ssh username@remotehost`：通过SSH协议登录远程主机。
-- `ftp ftpserver`：通过FTP协议连接FTP服务器。
+- `ssh username@remotehost`：通过 SSH 协议登录远程主机。
+- `ftp ftpserver`：通过 FTP 协议连接 FTP 服务器。
 
-## Shell编程命令
+## Shell 编程命令
 
-### Shell基础
+### Shell 基础
 
 - `echo message`：输出指定消息。
 - `read variable`：接收用户输入并赋值给变量。
@@ -127,7 +124,7 @@ Linux常用命令
 - 运算符：
 
   - 数值运算：`+`、`-`、`*`、`/`、`%`
-  - 字符串运算：`=`、`!=`、`-z`（字符串长度为0）、`-n`（字符串长度不为0）
+  - 字符串运算：`=`、`!=`、`-z`（字符串长度为 0）、`-n`（字符串长度不为 0）
   - 比较运算：`-eq`（等于）、`-ne`（不等于）、`-lt`（小于）、`-gt`（大于）、`-le`（小于等于）、`-ge`（大于等于）
   - 逻辑运算：`&&`（与）、`||`（或）、`!`（非）
 
@@ -143,7 +140,7 @@ Linux常用命令
 
 - 循环语句：
 
-  - for循环：
+  - for 循环：
 
     ```
     for variable in list
@@ -153,7 +150,7 @@ Linux常用命令
     done
     ```
 
-  - while循环：
+  - while 循环：
 
     ```
     while condition
@@ -163,7 +160,7 @@ Linux常用命令
     done
     ```
 
-### Shell高级
+### Shell 高级
 
 - 函数：
 
@@ -190,4 +187,3 @@ Linux常用命令
   - 删除文件：`rm filename`
   - 复制文件：`cp sourcefile targetfile`
   - 移动或重命名文件：`mv sourcefile targetfile`
-

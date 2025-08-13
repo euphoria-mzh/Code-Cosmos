@@ -1,3 +1,9 @@
+# Npm 项目包
+
+:::tip
+项目实用包
+:::
+
 ## Dplayer (视频播放器)
 
 官方文档 [点击跳转](https://dplayer.diygod.dev/zh/guide.html)
