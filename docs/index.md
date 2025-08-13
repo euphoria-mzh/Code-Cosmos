@@ -11,7 +11,7 @@ hero:
   actions:
     - theme: brand
       text: 🧭 导航
-      link: /guide/quickstart
+      link: /nav/nav.md
     - theme: alt
       text: 🇨🇳 关于我
       link: /about-me.md

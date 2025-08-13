@@ -975,6 +975,12 @@ export const NAV_DATA: NavData[] = [
         desc: "基于 React 的静态网站生成器",
         link: "https://docusaurus.io/zh-CN",
       },
+      {
+        icon: "https://vp.teek.top/teek-logo-mini.png",
+        title: "Teek",
+        desc: "vitepress主题",
+        link: "https://vp.teek.top/",
+      },
     ],
   },
   // 图标动画库

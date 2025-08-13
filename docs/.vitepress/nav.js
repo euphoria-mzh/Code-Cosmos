@@ -5,16 +5,16 @@ export const nav = [
     text: '🗂文档',
     items: [
       {
-        text: '终端命令',
+        text: '📂 终端命令',
         items: [
-          { text: 'Linux', link: '/Document/终端命令行/Linux.md' },
-          { text: 'Git', link: '/Document/终端命令行/git.md' },
+          { text: '🔖 Linux', link: '/Document/终端命令行/Linux.md' },
+          { text: '🔖 Git', link: '/Document/终端命令行/git.md' },
         ]
       },
       {
-        text: '中级注安讲义',
+        text: '📂 中级注安讲义',
         items: [
-          { text: '法律法规', link: '/Document/中级注安讲义/01-法规讲义.md' },
+          { text: '🔖 法律法规', link: '/Document/中级注安讲义/01-法规讲义.md' },
         ]
       },
     ]
@@ -23,22 +23,21 @@ export const nav = [
     text: '🧰常用工具',
     items: [
       {
-        text: '实用软件',
+        text: '🧫 实用软件',
         items: [
           { text: "Windows", link: "/Tools/实用软件/windows.md" },
           { text: "Mac", link: "/Tools/实用软件/mac.md" },
         ]
       },
       {
-        text: '实用插件',
+        text: '📌 实用插件',
         items: [
           { text: "Chrome插件", link: "/Tools/实用插件/Chrome.md" },
           { text: "Vscode插件", link: "/Tools/实用插件/VScode.md" },
-          { text: "IDEA插件", link: "/Tools/实用插件/Idea.md" },
         ]
       },
       {
-        text: '实用项目包',
+        text: '🧬 实用项目包',
         items: [
           { text: "npm包", link: "/Tools/实用项目包/index.md" },
         ]
@@ -46,7 +45,7 @@ export const nav = [
     ]
   },
   {
-    text: '☣️教程',
+    text: '🎟 教程',
     items: [
       { text: 'Win11美化', link: '/Tutorial/README.md' },
       { text: 'Win11右键菜单', link: '/Tutorial/win11右键菜单.md' },
