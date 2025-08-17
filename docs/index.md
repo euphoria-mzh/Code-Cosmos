@@ -12,6 +12,9 @@ hero:
     - theme: brand
       text: 🧭 导航
       link: /nav/nav.md
+    - theme: brand
+      text: 📝 随笔
+      link: /note.md
     - theme: alt
       text: 🇨🇳 关于我
       link: /about-me.md
@@ -43,16 +46,6 @@ features:
 /* 彩虹动画 */
 :root {
   animation: rainbow 12s linear infinite;
-  --vp-c-brand-1: #18794e;
-  --vp-c-brand-2: #299764;
-  --vp-c-brand-3: #30a46c;
-}
-
-
-.dark {
-    --vp-c-brand-1: #3dd68c;
-    --vp-c-brand-2: #30a46c;
-    --vp-c-brand-3: #298459;
 }
 
 @media (min-width: 640px) {

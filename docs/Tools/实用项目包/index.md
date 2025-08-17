@@ -1,3 +1,11 @@
+---
+title: Npm 项目包
+date: "2020-08-08"
+sidebar: "auto"
+coverImg: /blog/30.png
+description: "随便写几个npm包"
+---
+
 # Npm 项目包
 
 :::tip

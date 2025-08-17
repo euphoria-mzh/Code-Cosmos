@@ -1,11 +1,9 @@
 ---
-title: Git
-date: 2020-05-29
-pic: /images/18.jpg
-categories:
-  - 管理工具
-tags:
-  - 代码管理工具
+title: Git 安装与使用
+date: "2020-08-08"
+sidebar: "auto"
+coverImg: /blog/11.png
+description: "Git 的下载与安装"
 ---
 
 # Git 安装与使用

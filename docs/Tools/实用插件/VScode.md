@@ -1,3 +1,11 @@
+---
+title: VsCode 插件
+date: "2020-08-08"
+sidebar: "auto"
+coverImg: /blog/10.png
+description: "VsCode配置插件"
+---
+
 # VsCode 插件推荐
 
 :::tip

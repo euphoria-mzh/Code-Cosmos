@@ -1,6 +1,9 @@
 ---
-title: Linux
-date: 2020-05-29
+title: Linux 常用命令
+date: "2020-08-08"
+sidebar: "auto"
+coverImg: /blog/37.png
+description: "Linux 常用命令"
 ---
 
 # Linux 常用命令

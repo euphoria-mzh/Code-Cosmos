@@ -1,4 +1,8 @@
 ---
+title: Chrome 浏览器插件
+date: "2020-08-08"
+sidebar: "auto"
+coverImg: /blog/9.png
 description: "收录Chrome插件，让Chrome浏览器更好用"
 ---
 

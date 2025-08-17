@@ -20,22 +20,33 @@ const teekBlogCommonConfig: TeekConfig = {
     customHtml: `<span id="runtime"></span>`, // 需要搭配 .vitepress/theme/helper/useRuntime.ts 使用
   },
   docAnalysis: {
+    enabled: true,
     createTime: "2025-03-23",
-    statistics: {
-      provider: "busuanzi",
-    },
+    wordCount: true,
+    readingTime: true,
+    // statistics: {
+    //   provider: "busuanzi",
+    // },
   },
-
+  // overrideInfo: [
+  //   {
+  //     key: "lastActiveTime",
+  //     label: "活跃时间",
+  //     value: (_, currentValue) =>
+  //       (currentValue + "").replace("前", ""),
+  //     show: true,
+  //   },
+  // ],
   social: [
     {
       icon: "mdi:github",
       name: "GitHub",
-      link: "https://github.com/kele-bingtang",
+      link: "https://github.com/euphoria-mzh",
     },
     {
       icon: "simple-icons:gitee",
       name: "Gitee",
-      link: "https://gitee.com/kele-bingtang",
+      link: "https://gitee.com/euphoria-mzh",
     },
   ],
 };

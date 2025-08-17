@@ -1,5 +1,11 @@
 ---
-description: '收录 Mac 平台下的实用软件，提升使用体验'
+title: Mac新机开荒
+date: 2025-03-06 01:24:35
+titleTag: 推荐
+top: true
+sticky: 10
+coverImg: /blog/14.png
+description: "收录 Mac 平台下的实用软件，提升使用体验"
 ---
 
 # Mac 平台
@@ -378,4 +384,3 @@ sudo wechattweak-cli --uninstall
 2. 支持键盘控制亮度和音量
 
 [Github](https://github.com/MonitorControl/MonitorControl)
-  

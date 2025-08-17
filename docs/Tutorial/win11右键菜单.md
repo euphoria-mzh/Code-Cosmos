@@ -1,10 +1,9 @@
 ---
 title: Win11右键菜单
 date: "2020-08-08"
-pic: /images/24.jpg
 sidebar: "auto"
-categories:
-  - 教程
+coverImg: /blog/win1.png
+description: "Win11 右键菜单默认展开"
 ---
 
 # Win11 右键菜单

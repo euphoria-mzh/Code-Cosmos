@@ -2,6 +2,8 @@
 title: Win11美化
 date: "2020-08-08"
 sidebar: "auto"
+coverImg: /blog/win3.png
+description: "Win11 美化教程"
 ---
 
 # Windows 美化

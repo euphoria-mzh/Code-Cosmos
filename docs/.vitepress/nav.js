@@ -1,6 +1,7 @@
 export const nav = [
-  { text: '🏠主页', link: '/' },
-  { text: '🧭导航', link: '/nav/nav.md', activeMatch: '^/nav' },
+  { text: '🏠 主页', link: '/' },
+  { text: '🧭 导航', link: '/nav/nav.md', activeMatch: '^/nav' },
+  { text: "📝 随笔", link: "/note.md" },
   {
     text: '🗂文档',
     items: [

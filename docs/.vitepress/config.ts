@@ -14,7 +14,7 @@ const teekConfig = defineTeekConfig({
     link: "https://github.com/euphoria",
   },
   blogger: {
-    avatar: "/public/avatar.png",
+    avatar: "/avatar.png",
     shape: "circle-rotate",
     name: "工藤新一",
     slogan:
@@ -22,6 +22,19 @@ const teekConfig = defineTeekConfig({
     circleBgImg: "/blog/bg4.webp",
     color: "#ffffff",
   },
+  breadcrumb: {
+    enabled: false, // 是否启用面包屑
+    showCurrentName: false, // 面包屑最后一列是否显示当前文章的文件名
+    separator: "/", // 面包屑分隔符
+  },
+  // post: {
+  //   postStyle: "card", // 文章列表风格
+  //   excerptPosition: "top", // 文章摘要位置
+  //   showMore: true, // 是否显示更多按钮
+  //   moreLabel: "阅读全文 >", // 更多按钮文字
+  //   coverImgMode: "default", // 文章封面图模式
+  //   showCapture: false, // 是否在摘要位置显示文章部分文字，当为 true 且不使用 frontmatter.describe 和 <!-- more --> 时，会自动截取前 300 个字符作为摘要
+  // },
   footerInfo: {
     theme: {
       name: "euphoriaia-mzh",
@@ -36,7 +49,8 @@ const teekConfig = defineTeekConfig({
       TkMessage.success("复制成功！"),
   },
   post: {
-    showCapture: true,
+    postStyle: "card",
+    showCapture: false,
   },
   articleShare: { enabled: true },
   vitePlugins: {
@@ -53,7 +67,55 @@ const teekConfig = defineTeekConfig({
   },
   themeEnhance: {
     themeColor: {
-      disabled: true,
+      disabled: false,
+      // append: [
+      //   {
+      //     label: "博客扩展主题", // 主题组名称
+      //     tip: "博客扩展主题", // 主题组提示信息，鼠标悬停时显示
+      //     options: [
+      //       {
+      //         label: "紫罗兰",
+      //         value: "violet",
+      //         color: "#7166f0",
+      //       },
+      //       {
+      //         label: "珊瑚粉",
+      //         value: "coral-pink",
+      //         color: "#ff6b6b",
+      //       },
+      //       {
+      //         label: "天蓝",
+      //         value: "sky-blue",
+      //         color: "#00bbf9",
+      //       },
+      //       {
+      //         label: "蓝绿",
+      //         value: "blue-green",
+      //         color: "#00f5d4",
+      //       },
+      //       {
+      //         label: "石板灰",
+      //         value: "slate-gray",
+      //         color: "#708090",
+      //       },
+      //       {
+      //         label: "粉红",
+      //         value: "pink",
+      //         color: "#f15bb5",
+      //       },
+      //       {
+      //         label: "黄绿",
+      //         value: "yellow-green",
+      //         color: "#8ac926",
+      //       },
+      //       {
+      //         label: "橙红",
+      //         value: "orange-red",
+      //         color: "#ff9e6b",
+      //       },
+      //     ],
+      //   },
+      // ],
     },
   },
 });

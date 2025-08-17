@@ -1,3 +1,12 @@
+---
+title: Markdown 语法
+date: 2025-03-06 01:24:35
+titleTag: 推荐
+top: true
+coverImg: /blog/5.png
+description: "markdown 的一些写法"
+---
+
 # Markdown 语法
 
 :::tip

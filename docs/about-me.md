@@ -1,4 +1,10 @@
 ---
+title: 关于我
+titleTag: 推荐
+top: true
+sticky: 10
+coverImg: /blog/31.png
+description: "主包的自我介绍"
 aside: false
 sidebar: false
 ---
