@@ -82,6 +82,18 @@ export const NAV_DATA: NavData[] = [
       },
     ],
   },
+  // 在线工具
+  {
+    title: "在线工具",
+    items: [
+      {
+        icon: "https://www.wdku.net/static/ico/favicon.ico",
+        title: "依奇",
+        desc: "在线文件超级转换工具",
+        link: "https://www.wdku.net/",
+      },
+    ],
+  },
   // 常用网址
   {
     title: "常用网址",
