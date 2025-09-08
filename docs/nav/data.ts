@@ -129,6 +129,12 @@ export const NAV_DATA: NavData[] = [
     title: "常用工具",
     items: [
       {
+        icon: "https://www.tbtool.cn/resource/icon.ico",
+        title: "图拉丁吧工具箱",
+        desc: "DIY爱好者的必备工具合集",
+        link: "https://www.tbtool.cn/",
+      },
+      {
         icon: "http://coderutil.oss-cn-beijing.aliyuncs.com/bbs-image/file_bf2d601636884a37bb1d4bce32160254.png",
         title: "程序员盒子",
         desc: "程序员一站式编程导航",
@@ -909,6 +915,18 @@ export const NAV_DATA: NavData[] = [
   {
     title: "编译&构建&打包",
     items: [
+      {
+        icon: "https://pakeplus.com/app.svg",
+        title: "PakePlus",
+        desc: "打包网页/Vue/React项目为桌面/手机应用只需几分钟",
+        link: "https://pakeplus.com/zh/",
+      },
+      {
+        icon: "https://www.gulpjs.com.cn/img/favicon.png",
+        title: "Gulp 中文网",
+        desc: "一个基于 Node.js 平台的自动化构建工具",
+        link: "https://www.gulpjs.com.cn",
+      },
       {
         icon: "https://www.webpackjs.com/icon_180x180.png",
         title: "Webpack 中文网",
